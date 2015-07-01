@@ -21,8 +21,8 @@ def to_roman(num)
       output += "V"
       remainder -= 5
     elsif remainder >= 1
-      output += "I"
-      remainder -= 1
+        output += "I"
+        remainder -= 1
     end
   end
     
